@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "author": "Smart Street Light",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": -10,
+      "left": -20,
+      "attrs": {}
+    },
+    {
+      "type": "bh1750",
+      "id": "lux",
+      "top": -120,
+      "left": 230,
+      "attrs": {}
+    },
+    {
+      "type": "pir-motion-sensor",
+      "id": "pir",
+      "top": 130,
+      "left": 230,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "resistor",
+      "top": 80,
+      "left": 420,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led",
+      "top": 80,
+      "left": 500,
+      "attrs": { "color": "white" }
+    }
+  ],
+  "connections": [
+    [ "esp:3V3", "lux:VCC", "red", [] ],
+    [ "esp:GND.1", "lux:GND", "black", [] ],
+    [ "esp:22", "lux:SCL", "green", [] ],
+    [ "esp:21", "lux:SDA", "blue", [] ],
+    [ "esp:3V3", "pir:VCC", "red", [] ],
+    [ "esp:GND.2", "pir:GND", "black", [] ],
+    [ "esp:27", "pir:OUT", "orange", [] ],
+    [ "esp:4", "resistor:1", "purple", [] ],
+    [ "resistor:2", "led:A", "purple", [] ],
+    [ "esp:GND.3", "led:C", "black", [] ]
+  ],
+  "dependencies": {}
+}

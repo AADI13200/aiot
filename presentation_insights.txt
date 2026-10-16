@@ -1,0 +1,21 @@
+TRAFFIC DATASET — PRESENTATION INSIGHTS
+
+Dataset used for main analysis:
+• Augmented dataset: 2,599 observations, 9 variables.
+• No missing values detected.
+• No exact duplicate rows detected.
+
+Key findings:
+1. Traffic-level distribution is dominated by Medium traffic (62.2%).
+2. High traffic accounts for 25.0%.
+3. Very High traffic is rare in the augmented data (1.0%).
+4. Average vehicle activity peaks around hour 9:00 at 43.0 vehicles.
+5. Highway has the highest average vehicle count among area types (51.0).
+6. Market has the highest average pedestrian count (24.1).
+7. Vehicle and pedestrian counts show a moderate positive correlation (0.50).
+8. Ambient light follows a strong day/night cycle, peaking around midday.
+9. Weekday and weekend average vehicle counts are very similar in this dataset (36.1 vs 36.0).
+10. The original and augmented traffic-level distributions differ substantially: original Very High = 18.0%, augmented Very High = 1.0%.
+
+Important interpretation note:
+The augmented dataset should be treated as a synthetic/expanded dataset rather than as a direct representation of the original 100-row distribution. The comparison chart makes this distribution shift explicit.

@@ -1,0 +1,13 @@
+.venv/
+.venv-*/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.log
+
+outputs/readings.csv
+outputs/live_readings.csv
+outputs/connection_status.json
+
+.DS_Store
+Thumbs.db

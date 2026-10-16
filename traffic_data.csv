@@ -1,0 +1,101 @@
+Area_Type,Hour,Day_Type,Vehicle_Count,Pedestrian_Count,Ambient_Lux,Motion_Detected,Traffic_Level,Brightness_Level
+School,14,Weekend,1,2,221.0,0,Low,30
+School,15,Weekend,1,0,300.0,0,Low,30
+Highway,19,Weekend,87,12,20.0,0,Very High,100
+School,11,Weekday,43,36,238.0,1,Medium,30
+Highway,11,Weekend,71,6,159.0,1,High,30
+Market,21,Weekday,80,36,29.0,0,Very High,100
+School,6,Weekday,14,9,134.0,1,Low,30
+School,3,Weekday,4,3,24.0,1,Low,75
+Market,7,Weekday,30,17,490.0,1,Medium,30
+Residential,0,Weekday,9,4,9.0,0,Low,30
+Market,4,Weekend,5,5,15.0,0,Low,30
+Market,18,Weekday,99,46,174.0,1,Very High,30
+School,17,Weekday,25,21,578.0,0,Medium,30
+Highway,9,Weekday,88,17,429.0,1,Very High,30
+Residential,21,Weekday,36,12,33.0,0,Medium,50
+Highway,1,Weekend,40,7,7.0,1,Medium,75
+School,8,Weekday,60,41,317.0,1,High,30
+Market,6,Weekday,22,10,164.0,0,Medium,30
+School,16,Weekday,22,15,818.0,0,Medium,30
+Highway,6,Weekday,54,4,106.0,1,High,30
+Highway,14,Weekend,91,15,373.0,1,Very High,30
+Market,9,Weekday,51,21,431.0,0,High,30
+Residential,2,Weekday,3,0,16.0,0,Low,30
+Residential,15,Weekday,25,10,478.0,1,Medium,30
+Highway,0,Weekend,49,8,14.0,0,Medium,50
+Market,4,Weekday,3,4,3.0,0,Low,30
+Market,7,Weekday,22,9,303.0,0,Medium,30
+Market,3,Weekend,7,2,29.0,0,Low,30
+Residential,6,Weekday,16,5,147.0,1,Low,30
+Highway,17,Weekday,108,17,367.0,1,Very High,30
+Market,16,Weekend,81,40,510.0,1,Very High,30
+Market,11,Weekend,60,30,639.0,1,High,30
+Residential,5,Weekday,15,5,33.0,0,Low,30
+Highway,6,Weekday,48,5,42.0,0,Medium,50
+Highway,21,Weekend,74,9,28.0,0,High,75
+Market,9,Weekday,44,24,404.0,1,Medium,30
+Highway,11,Weekday,83,12,438.0,1,Very High,30
+Market,7,Weekday,32,17,343.0,1,Medium,30
+Residential,23,Weekday,16,2,24.0,1,Low,75
+School,0,Weekday,7,9,22.0,1,Low,75
+School,17,Weekday,19,12,713.0,0,Low,30
+Residential,21,Weekday,38,14,19.0,1,Medium,75
+Market,17,Weekday,85,38,775.0,1,Very High,30
+Highway,14,Weekend,70,5,685.0,1,High,30
+Residential,5,Weekend,11,5,34.0,1,Low,75
+School,21,Weekday,11,10,10.0,1,Low,75
+Residential,8,Weekend,33,10,696.0,0,Medium,30
+School,7,Weekday,31,31,683.0,1,Medium,30
+Residential,2,Weekend,2,0,27.0,0,Low,30
+Highway,20,Weekday,87,8,32.0,1,Very High,100
+Residential,7,Weekday,36,10,552.0,1,Medium,30
+Market,6,Weekday,10,0,121.0,0,Low,30
+Market,18,Weekday,99,55,47.0,0,Very High,100
+Market,13,Weekday,58,27,160.0,0,High,30
+Market,21,Weekday,78,28,23.0,1,High,75
+Residential,6,Weekday,17,3,33.0,0,Low,30
+Highway,5,Weekday,45,3,7.0,0,Medium,50
+Highway,7,Weekday,61,8,324.0,0,High,30
+Highway,16,Weekend,91,6,253.0,1,Very High,30
+Highway,16,Weekend,93,5,810.0,0,Very High,30
+Highway,16,Weekend,82,10,202.0,1,Very High,30
+School,17,Weekend,4,5,364.0,0,Low,30
+School,1,Weekday,1,3,32.0,0,Low,30
+Market,7,Weekday,23,9,191.0,0,Medium,30
+Highway,14,Weekend,85,12,647.0,1,Very High,30
+Residential,9,Weekend,22,7,428.0,0,Medium,30
+Market,8,Weekday,40,17,671.0,0,Medium,30
+Residential,18,Weekday,63,22,124.0,1,High,30
+School,23,Weekday,10,10,4.0,0,Low,30
+School,7,Weekend,1,0,544.0,0,Low,30
+Market,8,Weekday,28,15,249.0,0,Medium,30
+Highway,13,Weekday,88,10,230.0,1,Very High,30
+School,1,Weekday,8,8,4.0,0,Low,30
+School,10,Weekend,8,4,750.0,0,Low,30
+Highway,0,Weekday,46,9,34.0,0,Medium,50
+Market,12,Weekday,66,24,458.0,1,High,30
+School,17,Weekday,23,23,458.0,1,Medium,30
+Residential,0,Weekend,15,2,7.0,0,Low,30
+Residential,21,Weekend,42,14,20.0,0,Medium,50
+School,15,Weekday,45,30,549.0,1,Medium,30
+School,8,Weekday,67,38,173.0,0,High,30
+Market,20,Weekday,100,49,18.0,1,Very High,100
+Highway,5,Weekend,30,7,26.0,0,Medium,50
+Market,1,Weekday,5,0,18.0,0,Low,30
+Residential,18,Weekend,47,19,169.0,1,Medium,30
+Market,15,Weekday,69,33,709.0,1,High,30
+Residential,7,Weekday,31,9,646.0,1,Medium,30
+School,18,Weekday,4,1,138.0,0,Low,30
+Residential,21,Weekend,38,10,24.0,0,Medium,50
+Market,13,Weekday,64,31,265.0,1,High,30
+School,8,Weekday,65,54,213.0,1,High,30
+Residential,9,Weekday,34,11,799.0,0,Medium,30
+Market,9,Weekday,51,16,390.0,0,High,30
+Residential,7,Weekday,43,18,753.0,1,Medium,30
+Residential,10,Weekday,21,4,192.0,0,Medium,30
+Market,15,Weekday,63,25,518.0,1,High,30
+Market,14,Weekend,70,37,406.0,0,High,30
+Highway,16,Weekday,103,22,760.0,1,Very High,30
+School,10,Weekday,30,27,541.0,0,Medium,30
+Highway,2,Weekday,36,1,12.0,1,Medium,75

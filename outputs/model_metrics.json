@@ -1,0 +1,150 @@
+{
+  "model": "Random Forest",
+  "dataset_rows": 100,
+  "features": [
+    "Area_Type",
+    "Hour",
+    "Day_Type",
+    "Vehicle_Count",
+    "Pedestrian_Count",
+    "Ambient_Lux",
+    "Motion_Detected",
+    "Traffic_Level"
+  ],
+  "classes": [
+    30,
+    50,
+    75,
+    100
+  ],
+  "evaluations": {
+    "Decision Tree": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "cv_balanced_accuracy": 0.85,
+      "cv_balanced_accuracy_std": 0.2
+    },
+    "Random Forest": {
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.8583333333333334,
+      "macro_f1": 0.7830459770114943,
+      "cv_balanced_accuracy": 0.91875,
+      "cv_balanced_accuracy_std": 0.10383279828647594
+    },
+    "Extra Trees": {
+      "accuracy": 0.85,
+      "balanced_accuracy": 0.6083333333333334,
+      "macro_f1": 0.6008064516129032,
+      "cv_balanced_accuracy": 0.6900000000000001,
+      "cv_balanced_accuracy_std": 0.12420860589257807
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "numerical__Ambient_Lux",
+      "importance": 0.19028266102082403
+    },
+    {
+      "feature": "numerical__Vehicle_Count",
+      "importance": 0.17451248700501523
+    },
+    {
+      "feature": "numerical__Motion_Detected",
+      "importance": 0.13078743006097224
+    },
+    {
+      "feature": "numerical__Pedestrian_Count",
+      "importance": 0.09722893026413028
+    },
+    {
+      "feature": "numerical__Hour",
+      "importance": 0.0949423985141571
+    },
+    {
+      "feature": "categorical__Traffic_Level_Very High",
+      "importance": 0.08625069082049439
+    },
+    {
+      "feature": "categorical__Traffic_Level_Medium",
+      "importance": 0.08528023117419022
+    },
+    {
+      "feature": "categorical__Area_Type_Market",
+      "importance": 0.039844697125335046
+    },
+    {
+      "feature": "categorical__Traffic_Level_Low",
+      "importance": 0.025687128381532885
+    },
+    {
+      "feature": "categorical__Traffic_Level_High",
+      "importance": 0.018623833684498055
+    }
+  ],
+  "confusion_matrix": [
+    [
+      14,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "classification_report": {
+    "30": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9655172413793104,
+      "support": 15.0
+    },
+    "50": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "75": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 2.0
+    },
+    "100": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1.0
+    },
+    "accuracy": 0.9,
+    "macro avg": {
+      "precision": 0.75,
+      "recall": 0.8583333333333334,
+      "f1-score": 0.7830459770114943,
+      "support": 20.0
+    },
+    "weighted avg": {
+      "precision": 0.925,
+      "recall": 0.9,
+      "f1-score": 0.9074712643678163,
+      "support": 20.0
+    }
+  }
+}
